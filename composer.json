@@ -21,7 +21,9 @@
             "Slub\\MatomoReporter\\Tests\\": "Tests"
         }
     },
-    "replace": {
-        "typo3-ter/matomo-reporter": "self.version"
-    }
+    "extra": {
+        "typo3/cms": {
+           "extension-key": "matomo_reporter"
+        }
+     }
 }
