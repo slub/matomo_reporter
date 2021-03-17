@@ -9,7 +9,7 @@ call_user_func(
 
             \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
                 'Slub.MatomoReporter',
-                'tools', // Make module a submodule of 'tools'
+                'web', // Make module a submodule of 'web'
                 'dashboard', // Submodule key
                 '', // Position
                 [

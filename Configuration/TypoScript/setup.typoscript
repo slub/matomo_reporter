@@ -1,6 +1,6 @@
 
 # Module configuration
-module.tx_matomoreporter_tools_matomoreporterdashboard {
+module.tx_matomoreporter_web_matomoreporterdashboard {
     persistence {
         storagePid = {$module.tx_matomoreporter_dashboard.persistence.storagePid}
     }

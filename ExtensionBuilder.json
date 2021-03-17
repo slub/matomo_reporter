@@ -291,9 +291,9 @@
                 "actions": {
                     "controllerActionCombinations": ""
                 },
-                "description": "",
+                "description": "Matomo Reporter",
                 "key": "dashboard",
-                "mainModule": "tools",
+                "mainModule": "web",
                 "name": "Matomo Reporter",
                 "tabLabel": ""
             }
@@ -313,8 +313,8 @@
         },
         "extensionKey": "matomo_reporter",
         "name": "SLUB Matomo Reporter",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
+        "originalExtensionKey": "matomo_reporter",
+        "originalVendorName": "Slub",
         "persons": [
             {
                 "company": "SLUB Dresden",
@@ -376,9 +376,9 @@
             }
         }
     ],
-    "storagePath": "\/var\/www\/html\/public\/typo3conf\/ext\/",
+    "storagePath": "\/var\/www\/extensions\/",
     "log": {
-        "last_modified": "2021-03-17 03:05",
+        "last_modified": "2021-03-17 09:35",
         "extension_builder_version": "9.10.3",
         "be_user": " (1)"
     }
