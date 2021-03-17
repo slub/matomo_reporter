@@ -1,0 +1,27 @@
+{
+    "name": "slub/matomo-reporter",
+    "type": "typo3-cms-extension",
+    "description": "Extension will fetch data from matomo and sends email to subscribers.",
+    "authors": [
+        {
+            "name": "Alexander Bigga",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slub\\MatomoReporter\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slub\\MatomoReporter\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/matomo-reporter": "self.version"
+    }
+}

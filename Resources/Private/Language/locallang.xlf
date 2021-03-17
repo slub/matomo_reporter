@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:matomo_reporter/Resources/Private/Language/locallang" date="2021-03-17T15:05:49Z" product-name="matomo_reporter">
+		<header/>
+		<body>
+			<trans-unit id="tx_matomoreporter_domain_model_subscriber" resname="tx_matomoreporter_domain_model_subscriber">
+				<source>Subscriber</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_subscriber.name" resname="tx_matomoreporter_domain_model_subscriber.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_subscriber.email" resname="tx_matomoreporter_domain_model_subscriber.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_subscriber.websites" resname="tx_matomoreporter_domain_model_subscriber.websites">
+				<source>Websites</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_subscriber.collections" resname="tx_matomoreporter_domain_model_subscriber.collections">
+				<source>Collections</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_websites" resname="tx_matomoreporter_domain_model_websites">
+				<source>Websites</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_websites.name" resname="tx_matomoreporter_domain_model_websites.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_websites.visits" resname="tx_matomoreporter_domain_model_websites.visits">
+				<source>Visits</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_collections" resname="tx_matomoreporter_domain_model_collections">
+				<source>Collections</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_collections.name" resname="tx_matomoreporter_domain_model_collections.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_collections.visits" resname="tx_matomoreporter_domain_model_collections.visits">
+				<source>Visits</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_visits" resname="tx_matomoreporter_domain_model_visits">
+				<source>Visits</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_visits.month" resname="tx_matomoreporter_domain_model_visits.month">
+				<source>Month</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_visits.unique_visitors" resname="tx_matomoreporter_domain_model_visits.unique_visitors">
+				<source>Unique Visitors</source>
+			</trans-unit>
+			<trans-unit id="tx_matomoreporter_domain_model_visits.page_views" resname="tx_matomoreporter_domain_model_visits.page_views">
+				<source>Page Views</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

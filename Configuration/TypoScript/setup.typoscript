@@ -1,0 +1,15 @@
+
+# Module configuration
+module.tx_matomoreporter_tools_matomoreporterdashboard {
+    persistence {
+        storagePid = {$module.tx_matomoreporter_dashboard.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:matomo_reporter/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_matomoreporter_dashboard.view.templateRootPath}
+        partialRootPaths.0 = EXT:matomo_reporter/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_matomoreporter_dashboard.view.partialRootPath}
+        layoutRootPaths.0 = EXT:matomo_reporter/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_matomoreporter_dashboard.view.layoutRootPath}
+    }
+}
