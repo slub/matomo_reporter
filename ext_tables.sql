@@ -5,6 +5,7 @@ CREATE TABLE tx_matomoreporter_domain_model_subscriber (
 
 	name varchar(255) DEFAULT '' NOT NULL,
 	email varchar(255) DEFAULT '' NOT NULL,
+	maildays varchar(255) DEFAULT '' NOT NULL,
 	websites text NOT NULL,
 	collections int(11) unsigned DEFAULT '0' NOT NULL
 
