@@ -35,14 +35,6 @@ class Subscriber extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $email = '';
 
     /**
-     * maildays
-     * 
-     * @var string
-     * @TYPO3\CMS\Extbase\Annotation\Validate("NotEmpty")
-     */
-    protected $maildays = '';
-
-    /**
      * websites
      * 
      * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Slub\MatomoReporter\Domain\Model\Websites>
@@ -56,30 +48,6 @@ class Subscriber extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade("remove")
      */
     protected $collections = null;
-
-    /**
-     * __construct
-     */
-    public function __construct()
-    {
-
-        //Do not remove the next line: It would break the functionality
-        $this->initStorageObjects();
-    }
-
-    /**
-     * Initializes all ObjectStorage properties
-     * Do not modify this method!
-     * It will be rewritten on each save in the extension builder
-     * You may modify the constructor of this class instead
-     * 
-     * @return void
-     */
-    protected function initStorageObjects()
-    {
-        $this->websites = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
-        $this->collections = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
-    }
 
     /**
      * Returns the name
@@ -124,24 +92,27 @@ class Subscriber extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     }
 
     /**
-     * Returns the maildays
-     * 
-     * @return string $maildays
+     * __construct
      */
-    public function getMaildays()
+    public function __construct()
     {
-        return $this->maildays;
+
+        //Do not remove the next line: It would break the functionality
+        $this->initStorageObjects();
     }
 
     /**
-     * Sets the maildays
+     * Initializes all ObjectStorage properties
+     * Do not modify this method!
+     * It will be rewritten on each save in the extension builder
+     * You may modify the constructor of this class instead
      * 
-     * @param string $maildays
      * @return void
      */
-    public function setMaildays($maildays)
+    protected function initStorageObjects()
     {
-        $this->maildays = $maildays;
+        $this->websites = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
+        $this->collections = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
     }
 
     /**

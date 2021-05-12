@@ -16,14 +16,14 @@ return [
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ],
-        'searchFields' => 'name,email,maildays',
+        'searchFields' => 'name,email',
         'iconfile' => 'EXT:matomo_reporter/Resources/Public/Icons/tx_matomoreporter_domain_model_subscriber.gif'
     ],
     'interface' => [
-        'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, name, email, maildays, websites, collections',
+        'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, name, email, websites, collections',
     ],
     'types' => [
-        '1' => ['showitem' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, name, email, maildays, websites, collections, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access, starttime, endtime'],
+        '1' => ['showitem' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, name, email, websites, collections, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access, starttime, endtime'],
     ],
     'columns' => [
         'sys_language_uid' => [
@@ -133,15 +133,6 @@ return [
                 'size' => 30,
                 'eval' => 'nospace,email,required'
             ]
-        ],
-        'maildays' => [
-            'exclude' => true,
-            'label' => 'LLL:EXT:matomo_reporter/Resources/Private/Language/locallang_db.xlf:tx_matomoreporter_domain_model_subscriber.maildays',
-            'config' => [
-                'type' => 'input',
-                'size' => 30,
-                'eval' => 'trim,required'
-            ],
         ],
         'websites' => [
             'exclude' => true,

@@ -77,31 +77,6 @@ class SubscriberTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
     /**
      * @test
      */
-    public function getMaildaysReturnsInitialValueForString()
-    {
-        self::assertSame(
-            '',
-            $this->subject->getMaildays()
-        );
-    }
-
-    /**
-     * @test
-     */
-    public function setMaildaysForStringSetsMaildays()
-    {
-        $this->subject->setMaildays('Conceived at T3CON10');
-
-        self::assertAttributeEquals(
-            'Conceived at T3CON10',
-            'maildays',
-            $this->subject
-        );
-    }
-
-    /**
-     * @test
-     */
     public function getWebsitesReturnsInitialValueForWebsites()
     {
         $newObjectStorage = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();

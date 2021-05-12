@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:matomo_reporter/Resources/Private/Language/locallang_csh" date="2021-05-10T07:38:24Z" product-name="matomo_reporter">
+	<file source-language="en" datatype="plaintext" original="EXT:matomo_reporter/Resources/Private/Language/locallang_csh" date="2021-03-17T21:35:30Z" product-name="matomo_reporter">
 		<header/>
 		<body>
 			<trans-unit id="name.description" resname="name.description">
@@ -8,9 +8,6 @@
 			</trans-unit>
 			<trans-unit id="email.description" resname="email.description">
 				<source>email</source>
-			</trans-unit>
-			<trans-unit id="maildays.description" resname="maildays.description">
-				<source>maildays</source>
 			</trans-unit>
 			<trans-unit id="websites.description" resname="websites.description">
 				<source>websites</source>
