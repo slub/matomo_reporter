@@ -3,8 +3,8 @@
         {
             "config": {
                 "position": [
-                    258,
-                    87
+                    654,
+                    24
                 ]
             },
             "name": "New Model Object",
@@ -78,7 +78,7 @@
                             "relationName": "collections",
                             "relationType": "zeroToMany",
                             "relationWire": "[wired]",
-                            "renderType": "inline",
+                            "renderType": "selectMultipleSideBySide",
                             "uid": "290542915736"
                         }
                     ]
@@ -88,8 +88,8 @@
         {
             "config": {
                 "position": [
-                    874,
-                    185
+                    222,
+                    259
                 ]
             },
             "name": "New Model Object",
@@ -151,8 +151,8 @@
         {
             "config": {
                 "position": [
-                    599,
-                    505
+                    461,
+                    253
                 ]
             },
             "name": "New Model Object",
@@ -214,8 +214,8 @@
         {
             "config": {
                 "position": [
-                    187,
-                    483
+                    88,
+                    494
                 ]
             },
             "name": "New Model Object",
@@ -376,9 +376,9 @@
             }
         }
     ],
-    "storagePath": "\/var\/www\/extensions\/",
+    "storagePath": "\/var\/www\/html\/public\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2021-03-17 09:35",
+        "last_modified": "2021-05-18 11:10",
         "extension_builder_version": "9.10.3",
         "be_user": " (1)"
     }

@@ -139,10 +139,5 @@ return [
 
         ],
     
-        'subscriber' => [
-            'config' => [
-                'type' => 'passthrough',
-            ],
-        ],
     ],
 ];

@@ -164,16 +164,24 @@ return [
             'exclude' => true,
             'label' => 'LLL:EXT:matomo_reporter/Resources/Private/Language/locallang_db.xlf:tx_matomoreporter_domain_model_subscriber.collections',
             'config' => [
-                'type' => 'inline',
+                'type' => 'select',
+                'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_matomoreporter_domain_model_collections',
-                'foreign_field' => 'subscriber',
+                'default' => 0,
+                'size' => 10,
+                'autoSizeMax' => 30,
                 'maxitems' => 9999,
-                'appearance' => [
-                    'collapseAll' => 0,
-                    'levelLinksPosition' => 'top',
-                    'showSynchronizationLink' => 1,
-                    'showPossibleLocalizationRecords' => 1,
-                    'showAllLocalizationLink' => 1
+                'multiple' => 0,
+                'fieldControl' => [
+                    'editPopup' => [
+                        'disabled' => false,
+                    ],
+                    'addRecord' => [
+                        'disabled' => false,
+                    ],
+                    'listModule' => [
+                        'disabled' => true,
+                    ],
                 ],
             ],
 
