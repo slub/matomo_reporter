@@ -5,6 +5,7 @@ namespace Slub\MatomoReporter\Tests\Unit\Domain\Model;
  * Test case.
  *
  * @author Alexander Bigga <typo3@slub-dresden.de>
+ * @author Tobias Kreße <typo3@slub-dresden.de>
  */
 class CollectionsTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
 {

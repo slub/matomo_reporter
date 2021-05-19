@@ -321,6 +321,12 @@
                 "email": "typo3@slub-dresden.de",
                 "name": "Alexander Bigga",
                 "role": "Developer"
+            },
+            {
+                "company": "SLUB Dresden",
+                "email": "typo3@slub-dresden.de",
+                "name": "Tobias Kre\u00dfe",
+                "role": "Developer"
             }
         ],
         "plugins": [],
@@ -378,7 +384,7 @@
     ],
     "storagePath": "\/var\/www\/html\/public\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2021-05-19 11:47",
+        "last_modified": "2021-05-19 11:50",
         "extension_builder_version": "9.10.3",
         "be_user": " (1)"
     }

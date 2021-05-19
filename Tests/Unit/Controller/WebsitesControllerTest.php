@@ -5,6 +5,7 @@ namespace Slub\MatomoReporter\Tests\Unit\Controller;
  * Test case.
  *
  * @author Alexander Bigga <typo3@slub-dresden.de>
+ * @author Tobias Kreße <typo3@slub-dresden.de>
  */
 class WebsitesControllerTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
 {

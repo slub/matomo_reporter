@@ -19,10 +19,10 @@ SLUB Matomo Reporter
    en
 
 :Authors:
-   Alexander Bigga
+   Alexander Bigga, Tobias Kreße
 
 :Email:
-   typo3@slub-dresden.de
+   typo3@slub-dresden.de, typo3@slub-dresden.de
 
 :License:
    This extension documentation is published under the
