@@ -158,8 +158,8 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
-                    "_default1_show": false,
+                    "_default0_list": true,
+                    "_default1_show": true,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -169,7 +169,7 @@
                 "objectsettings": {
                     "addDeletedField": true,
                     "addHiddenField": true,
-                    "addStarttimeEndtimeFields": true,
+                    "addStarttimeEndtimeFields": false,
                     "aggregateRoot": false,
                     "categorizable": false,
                     "description": "",
@@ -378,7 +378,7 @@
     ],
     "storagePath": "\/var\/www\/html\/public\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2021-05-18 11:10",
+        "last_modified": "2021-05-19 11:47",
         "extension_builder_version": "9.10.3",
         "be_user": " (1)"
     }

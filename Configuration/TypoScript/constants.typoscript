@@ -10,6 +10,6 @@ module.tx_matomoreporter_dashboard {
     }
     persistence {
         # cat=module.tx_matomoreporter_dashboard//a; type=string; label=Default storage PID
-        storagePid = 1
+        storagePid =
     }
 }

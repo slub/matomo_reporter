@@ -1,0 +1,38 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+    <h1>Listing for Collections</h1>
+
+    <f:flashMessages />
+
+    <table  class="tx_matomoreporter" >
+        <tr>
+            <th><f:translate key="tx_matomoreporter_domain_model_collections.name" /></th>
+            <th> </th>
+            <th> </th>
+        </tr>
+
+        <f:for each="{collectionss}" as="collections">
+            <tr>
+                <td><f:link.action action="show" arguments="{collections : collections}"> {collections.name}</f:link.action></td>
+                <td><f:link.action action="edit" arguments="{collections : collections}">Edit</f:link.action></td>
+                <td><f:link.action action="delete" arguments="{collections : collections}">Delete</f:link.action></td>
+            </tr>
+            </f:for>
+    </table>
+
+    <f:link.action action="new">New Collections</f:link.action>
+</f:section>
+</html>

@@ -13,7 +13,7 @@ call_user_func(
                 'dashboard', // Submodule key
                 '', // Position
                 [
-                    'Subscriber' => 'list, show, new, create, edit, update, delete','Websites' => 'list, show',
+                    'Subscriber' => 'list, show, new, create, edit, update, delete','Websites' => 'list, show','Collections' => 'list, show',
                 ],
                 [
                     'access' => 'user,group',
